@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F7339E7F2A848CFF008349BA /* BoardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7339E7E2A848CFF008349BA /* BoardCell.swift */; };
 		F7C2BB9B2A82FB560037DC01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C2BB9A2A82FB560037DC01 /* AppDelegate.swift */; };
 		F7C2BB9D2A82FB560037DC01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C2BB9C2A82FB560037DC01 /* SceneDelegate.swift */; };
 		F7C2BB9F2A82FB560037DC01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C2BB9E2A82FB560037DC01 /* ViewController.swift */; };
@@ -17,6 +18,13 @@
 		F7C2BBB52A82FB570037DC01 /* App2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C2BBB42A82FB570037DC01 /* App2Tests.swift */; };
 		F7C2BBBF2A82FB570037DC01 /* App2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C2BBBE2A82FB570037DC01 /* App2UITests.swift */; };
 		F7C2BBC12A82FB570037DC01 /* App2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C2BBC02A82FB570037DC01 /* App2UITestsLaunchTests.swift */; };
+		F7C2BBCE2A8309960037DC01 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C2BBCD2A8309960037DC01 /* CustomTabBarController.swift */; };
+		F7C2BBD02A830B010037DC01 /* AwesomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C2BBCF2A830B010037DC01 /* AwesomeViewController.swift */; };
+		F7C2BBD22A830B2D0037DC01 /* TubularViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C2BBD12A830B2D0037DC01 /* TubularViewController.swift */; };
+		F7C2BBD42A830B5F0037DC01 /* CrazyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C2BBD32A830B5F0037DC01 /* CrazyViewController.swift */; };
+		F7C3CF8E2A85A95C00F96440 /* BoardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C3CF8D2A85A95C00F96440 /* BoardItem.swift */; };
+		F7C3CF902A85A96700F96440 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C3CF8F2A85A96700F96440 /* Board.swift */; };
+		F7C3CF922A85A97300F96440 /* Turn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C3CF912A85A97300F96440 /* Turn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F7339E7E2A848CFF008349BA /* BoardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardCell.swift; sourceTree = "<group>"; };
 		F7C2BB972A82FB560037DC01 /* App2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7C2BB9A2A82FB560037DC01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7C2BB9C2A82FB560037DC01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +60,13 @@
 		F7C2BBBA2A82FB570037DC01 /* App2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = App2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7C2BBBE2A82FB570037DC01 /* App2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App2UITests.swift; sourceTree = "<group>"; };
 		F7C2BBC02A82FB570037DC01 /* App2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F7C2BBCD2A8309960037DC01 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		F7C2BBCF2A830B010037DC01 /* AwesomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwesomeViewController.swift; sourceTree = "<group>"; };
+		F7C2BBD12A830B2D0037DC01 /* TubularViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TubularViewController.swift; sourceTree = "<group>"; };
+		F7C2BBD32A830B5F0037DC01 /* CrazyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrazyViewController.swift; sourceTree = "<group>"; };
+		F7C3CF8D2A85A95C00F96440 /* BoardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardItem.swift; sourceTree = "<group>"; };
+		F7C3CF8F2A85A96700F96440 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		F7C3CF912A85A97300F96440 /* Turn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +117,18 @@
 		F7C2BB992A82FB560037DC01 /* App2 */ = {
 			isa = PBXGroup;
 			children = (
+				F7339E7E2A848CFF008349BA /* BoardCell.swift */,
 				F7C2BB9A2A82FB560037DC01 /* AppDelegate.swift */,
 				F7C2BB9C2A82FB560037DC01 /* SceneDelegate.swift */,
 				F7C2BB9E2A82FB560037DC01 /* ViewController.swift */,
 				F7C2BBA02A82FB560037DC01 /* Main.storyboard */,
+				F7C3CF8D2A85A95C00F96440 /* BoardItem.swift */,
+				F7C3CF8F2A85A96700F96440 /* Board.swift */,
+				F7C3CF912A85A97300F96440 /* Turn.swift */,
+				F7C2BBCF2A830B010037DC01 /* AwesomeViewController.swift */,
+				F7C2BBD32A830B5F0037DC01 /* CrazyViewController.swift */,
+				F7C2BBD12A830B2D0037DC01 /* TubularViewController.swift */,
+				F7C2BBCD2A8309960037DC01 /* CustomTabBarController.swift */,
 				F7C2BBA62A82FB570037DC01 /* Assets.xcassets */,
 				F7C2BBA82A82FB570037DC01 /* LaunchScreen.storyboard */,
 				F7C2BBAB2A82FB570037DC01 /* Info.plist */,
@@ -261,10 +285,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7C2BBD02A830B010037DC01 /* AwesomeViewController.swift in Sources */,
 				F7C2BBA52A82FB560037DC01 /* App2.xcdatamodeld in Sources */,
 				F7C2BB9F2A82FB560037DC01 /* ViewController.swift in Sources */,
+				F7C2BBCE2A8309960037DC01 /* CustomTabBarController.swift in Sources */,
+				F7C3CF902A85A96700F96440 /* Board.swift in Sources */,
+				F7339E7F2A848CFF008349BA /* BoardCell.swift in Sources */,
+				F7C3CF8E2A85A95C00F96440 /* BoardItem.swift in Sources */,
+				F7C2BBD42A830B5F0037DC01 /* CrazyViewController.swift in Sources */,
 				F7C2BB9B2A82FB560037DC01 /* AppDelegate.swift in Sources */,
 				F7C2BB9D2A82FB560037DC01 /* SceneDelegate.swift in Sources */,
+				F7C3CF922A85A97300F96440 /* Turn.swift in Sources */,
+				F7C2BBD22A830B2D0037DC01 /* TubularViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,11 +476,13 @@
 				DEVELOPMENT_TEAM = RKJ48R852V;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = App2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = App2;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,9 +490,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.attistechnology.App2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -472,11 +509,13 @@
 				DEVELOPMENT_TEAM = RKJ48R852V;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = App2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = App2;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -484,9 +523,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.attistechnology.App2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -503,9 +545,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.attistechnology.App2Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/App2";
 			};
 			name = Debug;
@@ -523,9 +568,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.attistechnology.App2Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/App2";
 			};
 			name = Release;
